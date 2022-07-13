@@ -1,0 +1,32 @@
+$font: Calibri, sans-serif;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::before {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a,
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: inherit;
+}
